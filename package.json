@@ -1,0 +1,40 @@
+{
+  "name": "happy-react-hooks",
+  "version": "0.0.2",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config config/webpack.dev.config.js",
+    "build": "webpack --config config/webpack.prod.config.js",
+    "pub": "npm run build && npm publish"
+  },
+  "keywords": [
+    "react-hooks",
+    "useWebSocket",
+    "useAutoFit",
+    "hooks"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RhysZhao/happy-react-hooks"
+  },
+  "author": "rhys.zhao",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass": "^1.49.0",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.3"
+  }
+}
